@@ -1,0 +1,1223 @@
+[
+  {
+    "addIns": [],
+    "api": {
+      "acceptMappedClaims": null,
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "knownClientApplications": [],
+      "oauth2PermissionScopes": [],
+      "odataType": "#microsoft.graph.apiApplication",
+      "preAuthorizedApplications": [],
+      "requestedAccessTokenVersion": 2
+    },
+    "appId": "905579ba-90cc-48a6-b4a4-a0b41e3a5f07",
+    "applicationTemplateId": null,
+    "appRoles": [],
+    "certification": null,
+    "createdDateTime": "2022-11-02T19:09:48+00:00",
+    "createdOnBehalfOf": null,
+    "defaultRedirectUri": null,
+    "description": null,
+    "disabledByMicrosoftStatus": null,
+    "displayName": "spa",
+    "extensionProperties": null,
+    "federatedIdentityCredentials": null,
+    "groupMembershipClaims": null,
+    "homeRealmDiscoveryPolicies": null,
+    "identifierUris": [],
+    "info": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "logoUrl": null,
+      "marketingUrl": null,
+      "odataType": "#microsoft.graph.informationalUrl",
+      "privacyStatementUrl": null,
+      "supportUrl": null,
+      "termsOfServiceUrl": null
+    },
+    "isDeviceOnlyAuthSupported": null,
+    "isFallbackPublicClient": null,
+    "keyCredentials": [],
+    "logo": null,
+    "notes": null,
+    "oauth2RequirePostResponse": null,
+    "optionalClaims": null,
+    "owners": null,
+    "parentalControlSettings": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "countriesBlockedForMinors": [],
+      "legalAgeGroupRule": "Allow",
+      "odataType": "#microsoft.graph.parentalControlSettings"
+    },
+    "passwordCredentials": [],
+    "publicClient": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "odataType": "#microsoft.graph.publicClientApplication",
+      "redirectUris": []
+    },
+    "publisherDomain": "stidpoc.onmicrosoft.com",
+    "requiredResourceAccess": [
+      {
+        "additionalData": {},
+        "backingStore": {
+          "initializationCompleted": true,
+          "returnOnlyChangedValues": false
+        },
+        "odataType": "#microsoft.graph.requiredResourceAccess",
+        "resourceAccess": [
+          {
+            "additionalData": {},
+            "backingStore": {
+              "initializationCompleted": true,
+              "returnOnlyChangedValues": false
+            },
+            "id": "b3985252-d3b2-4794-be2e-c8c680d6ec0b",
+            "odataType": "#microsoft.graph.resourceAccess",
+            "type": "Scope"
+          }
+        ],
+        "resourceAppId": "7eb166b9-815a-4dea-b0a0-88031512a436"
+      },
+      {
+        "additionalData": {},
+        "backingStore": {
+          "initializationCompleted": true,
+          "returnOnlyChangedValues": false
+        },
+        "odataType": "#microsoft.graph.requiredResourceAccess",
+        "resourceAccess": [
+          {
+            "additionalData": {},
+            "backingStore": {
+              "initializationCompleted": true,
+              "returnOnlyChangedValues": false
+            },
+            "id": "37f7f235-527c-4136-accd-4a02d197296e",
+            "odataType": "#microsoft.graph.resourceAccess",
+            "type": "Scope"
+          },
+          {
+            "additionalData": {},
+            "backingStore": {
+              "initializationCompleted": true,
+              "returnOnlyChangedValues": false
+            },
+            "id": "7427e0e9-2fba-42fe-b0c0-848c9e6a8182",
+            "odataType": "#microsoft.graph.resourceAccess",
+            "type": "Scope"
+          }
+        ],
+        "resourceAppId": "00000003-0000-0000-c000-000000000000"
+      }
+    ],
+    "samlMetadataUrl": null,
+    "serviceManagementReference": null,
+    "signInAudience": "AzureADandPersonalMicrosoftAccount",
+    "spa": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "odataType": "#microsoft.graph.spaApplication",
+      "redirectUris": ["http://localhost:3000"]
+    },
+    "tags": [],
+    "tokenEncryptionKeyId": null,
+    "tokenIssuancePolicies": null,
+    "tokenLifetimePolicies": null,
+    "verifiedPublisher": {
+      "addedDateTime": null,
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "displayName": null,
+      "odataType": "#microsoft.graph.verifiedPublisher",
+      "verifiedPublisherId": null
+    },
+    "web": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "homePageUrl": null,
+      "implicitGrantSettings": {
+        "additionalData": {},
+        "backingStore": {
+          "initializationCompleted": true,
+          "returnOnlyChangedValues": false
+        },
+        "enableAccessTokenIssuance": false,
+        "enableIdTokenIssuance": false,
+        "odataType": "#microsoft.graph.implicitGrantSettings"
+      },
+      "logoutUrl": null,
+      "odataType": "#microsoft.graph.webApplication",
+      "redirectUris": [],
+      "redirectUriSettings": []
+    },
+    "administrativeUnits": null,
+    "deletedItems": null,
+    "federationConfigurations": null,
+    "additionalData": { "deletedDateTime": null },
+    "backingStore": {
+      "initializationCompleted": true,
+      "returnOnlyChangedValues": false
+    },
+    "id": "10a03ef0-5a3b-45cf-b5c6-e87e259f42fb",
+    "odataType": "#microsoft.graph.application"
+  },
+  {
+    "addIns": [],
+    "api": {
+      "acceptMappedClaims": null,
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "knownClientApplications": [],
+      "oauth2PermissionScopes": [],
+      "odataType": "#microsoft.graph.apiApplication",
+      "preAuthorizedApplications": [],
+      "requestedAccessTokenVersion": 2
+    },
+    "appId": "00f8ac9a-f4ce-4a05-8be9-b5e217996f09",
+    "applicationTemplateId": null,
+    "appRoles": [],
+    "certification": null,
+    "createdDateTime": "2022-11-04T12:46:06+00:00",
+    "createdOnBehalfOf": null,
+    "defaultRedirectUri": null,
+    "description": null,
+    "disabledByMicrosoftStatus": null,
+    "displayName": "dashboard",
+    "extensionProperties": null,
+    "federatedIdentityCredentials": null,
+    "groupMembershipClaims": null,
+    "homeRealmDiscoveryPolicies": null,
+    "identifierUris": [],
+    "info": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "logoUrl": null,
+      "marketingUrl": null,
+      "odataType": "#microsoft.graph.informationalUrl",
+      "privacyStatementUrl": null,
+      "supportUrl": null,
+      "termsOfServiceUrl": null
+    },
+    "isDeviceOnlyAuthSupported": null,
+    "isFallbackPublicClient": null,
+    "keyCredentials": [],
+    "logo": null,
+    "notes": null,
+    "oauth2RequirePostResponse": null,
+    "optionalClaims": null,
+    "owners": null,
+    "parentalControlSettings": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "countriesBlockedForMinors": [],
+      "legalAgeGroupRule": "Allow",
+      "odataType": "#microsoft.graph.parentalControlSettings"
+    },
+    "passwordCredentials": [
+      {
+        "additionalData": {},
+        "backingStore": {
+          "initializationCompleted": true,
+          "returnOnlyChangedValues": false
+        },
+        "customKeyIdentifier": null,
+        "displayName": "stid-management",
+        "endDateTime": "2023-11-09T18:27:39.075+00:00",
+        "hint": "nLC",
+        "keyId": "684225aa-d8f1-4498-9dbd-a5e63f7fabfd",
+        "odataType": "#microsoft.graph.passwordCredential",
+        "secretText": null,
+        "startDateTime": "2022-11-09T18:27:39.075+00:00"
+      }
+    ],
+    "publicClient": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "odataType": "#microsoft.graph.publicClientApplication",
+      "redirectUris": []
+    },
+    "publisherDomain": "stidpoc.onmicrosoft.com",
+    "requiredResourceAccess": [
+      {
+        "additionalData": {},
+        "backingStore": {
+          "initializationCompleted": true,
+          "returnOnlyChangedValues": false
+        },
+        "odataType": "#microsoft.graph.requiredResourceAccess",
+        "resourceAccess": [
+          {
+            "additionalData": {},
+            "backingStore": {
+              "initializationCompleted": true,
+              "returnOnlyChangedValues": false
+            },
+            "id": "7427e0e9-2fba-42fe-b0c0-848c9e6a8182",
+            "odataType": "#microsoft.graph.resourceAccess",
+            "type": "Scope"
+          },
+          {
+            "additionalData": {},
+            "backingStore": {
+              "initializationCompleted": true,
+              "returnOnlyChangedValues": false
+            },
+            "id": "37f7f235-527c-4136-accd-4a02d197296e",
+            "odataType": "#microsoft.graph.resourceAccess",
+            "type": "Scope"
+          },
+          {
+            "additionalData": {},
+            "backingStore": {
+              "initializationCompleted": true,
+              "returnOnlyChangedValues": false
+            },
+            "id": "741f803b-c850-494e-b5df-cde7c675a1ca",
+            "odataType": "#microsoft.graph.resourceAccess",
+            "type": "Role"
+          },
+          {
+            "additionalData": {},
+            "backingStore": {
+              "initializationCompleted": true,
+              "returnOnlyChangedValues": false
+            },
+            "id": "19dbc75e-c2e2-444c-a770-ec69d8559fc7",
+            "odataType": "#microsoft.graph.resourceAccess",
+            "type": "Role"
+          }
+        ],
+        "resourceAppId": "00000003-0000-0000-c000-000000000000"
+      }
+    ],
+    "samlMetadataUrl": null,
+    "serviceManagementReference": null,
+    "signInAudience": "AzureADandPersonalMicrosoftAccount",
+    "spa": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "odataType": "#microsoft.graph.spaApplication",
+      "redirectUris": []
+    },
+    "tags": [],
+    "tokenEncryptionKeyId": null,
+    "tokenIssuancePolicies": null,
+    "tokenLifetimePolicies": null,
+    "verifiedPublisher": {
+      "addedDateTime": null,
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "displayName": null,
+      "odataType": "#microsoft.graph.verifiedPublisher",
+      "verifiedPublisherId": null
+    },
+    "web": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "homePageUrl": null,
+      "implicitGrantSettings": {
+        "additionalData": {},
+        "backingStore": {
+          "initializationCompleted": true,
+          "returnOnlyChangedValues": false
+        },
+        "enableAccessTokenIssuance": true,
+        "enableIdTokenIssuance": true,
+        "odataType": "#microsoft.graph.implicitGrantSettings"
+      },
+      "logoutUrl": null,
+      "odataType": "#microsoft.graph.webApplication",
+      "redirectUris": [
+        "http://localhost:5135/signin-oidc",
+        "http://localhost:5217/signin-oidc",
+        "https://localhost:7193/signin-oidc"
+      ],
+      "redirectUriSettings": [
+        {
+          "additionalData": {},
+          "backingStore": {
+            "initializationCompleted": true,
+            "returnOnlyChangedValues": false
+          },
+          "index": null,
+          "odataType": "#microsoft.graph.redirectUriSettings",
+          "uri": "http://localhost:5135/signin-oidc"
+        },
+        {
+          "additionalData": {},
+          "backingStore": {
+            "initializationCompleted": true,
+            "returnOnlyChangedValues": false
+          },
+          "index": null,
+          "odataType": "#microsoft.graph.redirectUriSettings",
+          "uri": "http://localhost:5217/signin-oidc"
+        },
+        {
+          "additionalData": {},
+          "backingStore": {
+            "initializationCompleted": true,
+            "returnOnlyChangedValues": false
+          },
+          "index": null,
+          "odataType": "#microsoft.graph.redirectUriSettings",
+          "uri": "https://localhost:7193/signin-oidc"
+        }
+      ]
+    },
+    "administrativeUnits": null,
+    "deletedItems": null,
+    "federationConfigurations": null,
+    "additionalData": { "deletedDateTime": null },
+    "backingStore": {
+      "initializationCompleted": true,
+      "returnOnlyChangedValues": false
+    },
+    "id": "62b78f8a-4b3d-4d22-abf8-3c62ff8830ac",
+    "odataType": "#microsoft.graph.application"
+  },
+  {
+    "addIns": [],
+    "api": {
+      "acceptMappedClaims": null,
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "knownClientApplications": [],
+      "oauth2PermissionScopes": [],
+      "odataType": "#microsoft.graph.apiApplication",
+      "preAuthorizedApplications": [],
+      "requestedAccessTokenVersion": 2
+    },
+    "appId": "0b613e2b-108f-4b45-8322-df2a6d837f7e",
+    "applicationTemplateId": null,
+    "appRoles": [],
+    "certification": null,
+    "createdDateTime": "2022-11-10T12:24:37+00:00",
+    "createdOnBehalfOf": null,
+    "defaultRedirectUri": null,
+    "description": null,
+    "disabledByMicrosoftStatus": null,
+    "displayName": "temp",
+    "extensionProperties": null,
+    "federatedIdentityCredentials": null,
+    "groupMembershipClaims": null,
+    "homeRealmDiscoveryPolicies": null,
+    "identifierUris": [],
+    "info": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "logoUrl": null,
+      "marketingUrl": null,
+      "odataType": "#microsoft.graph.informationalUrl",
+      "privacyStatementUrl": null,
+      "supportUrl": null,
+      "termsOfServiceUrl": null
+    },
+    "isDeviceOnlyAuthSupported": null,
+    "isFallbackPublicClient": null,
+    "keyCredentials": [],
+    "logo": null,
+    "notes": null,
+    "oauth2RequirePostResponse": null,
+    "optionalClaims": null,
+    "owners": null,
+    "parentalControlSettings": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "countriesBlockedForMinors": [],
+      "legalAgeGroupRule": "Allow",
+      "odataType": "#microsoft.graph.parentalControlSettings"
+    },
+    "passwordCredentials": [],
+    "publicClient": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "odataType": "#microsoft.graph.publicClientApplication",
+      "redirectUris": []
+    },
+    "publisherDomain": "stidpoc.onmicrosoft.com",
+    "requiredResourceAccess": [
+      {
+        "additionalData": {},
+        "backingStore": {
+          "initializationCompleted": true,
+          "returnOnlyChangedValues": false
+        },
+        "odataType": "#microsoft.graph.requiredResourceAccess",
+        "resourceAccess": [
+          {
+            "additionalData": {},
+            "backingStore": {
+              "initializationCompleted": true,
+              "returnOnlyChangedValues": false
+            },
+            "id": "37f7f235-527c-4136-accd-4a02d197296e",
+            "odataType": "#microsoft.graph.resourceAccess",
+            "type": "Scope"
+          },
+          {
+            "additionalData": {},
+            "backingStore": {
+              "initializationCompleted": true,
+              "returnOnlyChangedValues": false
+            },
+            "id": "7427e0e9-2fba-42fe-b0c0-848c9e6a8182",
+            "odataType": "#microsoft.graph.resourceAccess",
+            "type": "Scope"
+          }
+        ],
+        "resourceAppId": "00000003-0000-0000-c000-000000000000"
+      }
+    ],
+    "samlMetadataUrl": null,
+    "serviceManagementReference": null,
+    "signInAudience": "AzureADandPersonalMicrosoftAccount",
+    "spa": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "odataType": "#microsoft.graph.spaApplication",
+      "redirectUris": []
+    },
+    "tags": [],
+    "tokenEncryptionKeyId": null,
+    "tokenIssuancePolicies": null,
+    "tokenLifetimePolicies": null,
+    "verifiedPublisher": {
+      "addedDateTime": null,
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "displayName": null,
+      "odataType": "#microsoft.graph.verifiedPublisher",
+      "verifiedPublisherId": null
+    },
+    "web": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "homePageUrl": null,
+      "implicitGrantSettings": {
+        "additionalData": {},
+        "backingStore": {
+          "initializationCompleted": true,
+          "returnOnlyChangedValues": false
+        },
+        "enableAccessTokenIssuance": false,
+        "enableIdTokenIssuance": false,
+        "odataType": "#microsoft.graph.implicitGrantSettings"
+      },
+      "logoutUrl": null,
+      "odataType": "#microsoft.graph.webApplication",
+      "redirectUris": [],
+      "redirectUriSettings": []
+    },
+    "administrativeUnits": null,
+    "deletedItems": null,
+    "federationConfigurations": null,
+    "additionalData": { "deletedDateTime": null },
+    "backingStore": {
+      "initializationCompleted": true,
+      "returnOnlyChangedValues": false
+    },
+    "id": "99ea7130-0b58-4cc9-8cc6-ea2dacb0d856",
+    "odataType": "#microsoft.graph.application"
+  },
+  {
+    "addIns": [],
+    "api": {
+      "acceptMappedClaims": null,
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "knownClientApplications": [],
+      "oauth2PermissionScopes": [
+        {
+          "additionalData": {},
+          "adminConsentDescription": "Read",
+          "adminConsentDisplayName": "Read",
+          "backingStore": {
+            "initializationCompleted": true,
+            "returnOnlyChangedValues": false
+          },
+          "id": "b3985252-d3b2-4794-be2e-c8c680d6ec0b",
+          "isEnabled": true,
+          "odataType": "#microsoft.graph.permissionScope",
+          "origin": null,
+          "type": "Admin",
+          "userConsentDescription": null,
+          "userConsentDisplayName": null,
+          "value": "Read"
+        }
+      ],
+      "odataType": "#microsoft.graph.apiApplication",
+      "preAuthorizedApplications": [],
+      "requestedAccessTokenVersion": 2
+    },
+    "appId": "7eb166b9-815a-4dea-b0a0-88031512a436",
+    "applicationTemplateId": null,
+    "appRoles": [],
+    "certification": null,
+    "createdDateTime": "2022-11-03T13:28:55+00:00",
+    "createdOnBehalfOf": null,
+    "defaultRedirectUri": null,
+    "description": null,
+    "disabledByMicrosoftStatus": null,
+    "displayName": "api",
+    "extensionProperties": null,
+    "federatedIdentityCredentials": null,
+    "groupMembershipClaims": null,
+    "homeRealmDiscoveryPolicies": null,
+    "identifierUris": ["https://stidpoc.onmicrosoft.com/api"],
+    "info": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "logoUrl": null,
+      "marketingUrl": null,
+      "odataType": "#microsoft.graph.informationalUrl",
+      "privacyStatementUrl": null,
+      "supportUrl": null,
+      "termsOfServiceUrl": null
+    },
+    "isDeviceOnlyAuthSupported": null,
+    "isFallbackPublicClient": null,
+    "keyCredentials": [],
+    "logo": null,
+    "notes": null,
+    "oauth2RequirePostResponse": null,
+    "optionalClaims": null,
+    "owners": null,
+    "parentalControlSettings": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "countriesBlockedForMinors": [],
+      "legalAgeGroupRule": "Allow",
+      "odataType": "#microsoft.graph.parentalControlSettings"
+    },
+    "passwordCredentials": [],
+    "publicClient": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "odataType": "#microsoft.graph.publicClientApplication",
+      "redirectUris": []
+    },
+    "publisherDomain": "stidpoc.onmicrosoft.com",
+    "requiredResourceAccess": [
+      {
+        "additionalData": {},
+        "backingStore": {
+          "initializationCompleted": true,
+          "returnOnlyChangedValues": false
+        },
+        "odataType": "#microsoft.graph.requiredResourceAccess",
+        "resourceAccess": [
+          {
+            "additionalData": {},
+            "backingStore": {
+              "initializationCompleted": true,
+              "returnOnlyChangedValues": false
+            },
+            "id": "7427e0e9-2fba-42fe-b0c0-848c9e6a8182",
+            "odataType": "#microsoft.graph.resourceAccess",
+            "type": "Scope"
+          },
+          {
+            "additionalData": {},
+            "backingStore": {
+              "initializationCompleted": true,
+              "returnOnlyChangedValues": false
+            },
+            "id": "37f7f235-527c-4136-accd-4a02d197296e",
+            "odataType": "#microsoft.graph.resourceAccess",
+            "type": "Scope"
+          },
+          {
+            "additionalData": {},
+            "backingStore": {
+              "initializationCompleted": true,
+              "returnOnlyChangedValues": false
+            },
+            "id": "741f803b-c850-494e-b5df-cde7c675a1ca",
+            "odataType": "#microsoft.graph.resourceAccess",
+            "type": "Role"
+          },
+          {
+            "additionalData": {},
+            "backingStore": {
+              "initializationCompleted": true,
+              "returnOnlyChangedValues": false
+            },
+            "id": "df021288-bdef-4463-88db-98f22de89214",
+            "odataType": "#microsoft.graph.resourceAccess",
+            "type": "Role"
+          }
+        ],
+        "resourceAppId": "00000003-0000-0000-c000-000000000000"
+      }
+    ],
+    "samlMetadataUrl": null,
+    "serviceManagementReference": null,
+    "signInAudience": "AzureADandPersonalMicrosoftAccount",
+    "spa": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "odataType": "#microsoft.graph.spaApplication",
+      "redirectUris": []
+    },
+    "tags": [],
+    "tokenEncryptionKeyId": null,
+    "tokenIssuancePolicies": null,
+    "tokenLifetimePolicies": null,
+    "verifiedPublisher": {
+      "addedDateTime": null,
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "displayName": null,
+      "odataType": "#microsoft.graph.verifiedPublisher",
+      "verifiedPublisherId": null
+    },
+    "web": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "homePageUrl": null,
+      "implicitGrantSettings": {
+        "additionalData": {},
+        "backingStore": {
+          "initializationCompleted": true,
+          "returnOnlyChangedValues": false
+        },
+        "enableAccessTokenIssuance": false,
+        "enableIdTokenIssuance": false,
+        "odataType": "#microsoft.graph.implicitGrantSettings"
+      },
+      "logoutUrl": null,
+      "odataType": "#microsoft.graph.webApplication",
+      "redirectUris": [],
+      "redirectUriSettings": []
+    },
+    "administrativeUnits": null,
+    "deletedItems": null,
+    "federationConfigurations": null,
+    "additionalData": { "deletedDateTime": null },
+    "backingStore": {
+      "initializationCompleted": true,
+      "returnOnlyChangedValues": false
+    },
+    "id": "ca9be921-284e-4d5e-9443-61b77a518eb5",
+    "odataType": "#microsoft.graph.application"
+  },
+  {
+    "addIns": [],
+    "api": {
+      "acceptMappedClaims": null,
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "knownClientApplications": [],
+      "oauth2PermissionScopes": [
+        {
+          "additionalData": {},
+          "adminConsentDescription": "Allow the application to access b2c-extensions-app. Do not modify. Used by AADB2C for storing user data. on behalf of the signed-in user.",
+          "adminConsentDisplayName": "Access b2c-extensions-app. Do not modify. Used by AADB2C for storing user data.",
+          "backingStore": {
+            "initializationCompleted": true,
+            "returnOnlyChangedValues": false
+          },
+          "id": "0cbe7c2d-fdcf-4d78-b7f7-73b303a60caf",
+          "isEnabled": true,
+          "odataType": "#microsoft.graph.permissionScope",
+          "origin": null,
+          "type": "User",
+          "userConsentDescription": "Allow the application to access b2c-extensions-app. Do not modify. Used by AADB2C for storing user data. on your behalf.",
+          "userConsentDisplayName": "Access b2c-extensions-app. Do not modify. Used by AADB2C for storing user data.",
+          "value": "user_impersonation"
+        }
+      ],
+      "odataType": "#microsoft.graph.apiApplication",
+      "preAuthorizedApplications": [],
+      "requestedAccessTokenVersion": null
+    },
+    "appId": "8f816474-1eaf-4f82-8f80-20147d6c30af",
+    "applicationTemplateId": null,
+    "appRoles": [],
+    "certification": null,
+    "createdDateTime": "2022-11-02T18:49:04+00:00",
+    "createdOnBehalfOf": null,
+    "defaultRedirectUri": null,
+    "description": null,
+    "disabledByMicrosoftStatus": null,
+    "displayName": "b2c-extensions-app. Do not modify. Used by AADB2C for storing user data.",
+    "extensionProperties": null,
+    "federatedIdentityCredentials": null,
+    "groupMembershipClaims": null,
+    "homeRealmDiscoveryPolicies": null,
+    "identifierUris": ["https://stidpoc.onmicrosoft.com/cpimextensions"],
+    "info": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "logoUrl": null,
+      "marketingUrl": null,
+      "odataType": "#microsoft.graph.informationalUrl",
+      "privacyStatementUrl": null,
+      "supportUrl": null,
+      "termsOfServiceUrl": null
+    },
+    "isDeviceOnlyAuthSupported": null,
+    "isFallbackPublicClient": null,
+    "keyCredentials": [],
+    "logo": null,
+    "notes": null,
+    "oauth2RequirePostResponse": null,
+    "optionalClaims": null,
+    "owners": null,
+    "parentalControlSettings": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "countriesBlockedForMinors": [],
+      "legalAgeGroupRule": "Allow",
+      "odataType": "#microsoft.graph.parentalControlSettings"
+    },
+    "passwordCredentials": [],
+    "publicClient": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "odataType": "#microsoft.graph.publicClientApplication",
+      "redirectUris": []
+    },
+    "publisherDomain": "stidpoc.onmicrosoft.com",
+    "requiredResourceAccess": [
+      {
+        "additionalData": {},
+        "backingStore": {
+          "initializationCompleted": true,
+          "returnOnlyChangedValues": false
+        },
+        "odataType": "#microsoft.graph.requiredResourceAccess",
+        "resourceAccess": [
+          {
+            "additionalData": {},
+            "backingStore": {
+              "initializationCompleted": true,
+              "returnOnlyChangedValues": false
+            },
+            "id": "78c8a3c8-a07e-4b9e-af1b-b5ccab50a175",
+            "odataType": "#microsoft.graph.resourceAccess",
+            "type": "Role,Scope"
+          },
+          {
+            "additionalData": {},
+            "backingStore": {
+              "initializationCompleted": true,
+              "returnOnlyChangedValues": false
+            },
+            "id": "5778995a-e1bf-45b8-affa-663a9f3f4d04",
+            "odataType": "#microsoft.graph.resourceAccess",
+            "type": "Role,Scope"
+          },
+          {
+            "additionalData": {},
+            "backingStore": {
+              "initializationCompleted": true,
+              "returnOnlyChangedValues": false
+            },
+            "id": "311a71cc-e848-46a1-bdf8-97ff7156d8e6",
+            "odataType": "#microsoft.graph.resourceAccess",
+            "type": "Scope"
+          }
+        ],
+        "resourceAppId": "00000002-0000-0000-c000-000000000000"
+      }
+    ],
+    "samlMetadataUrl": null,
+    "serviceManagementReference": null,
+    "signInAudience": "AzureADMyOrg",
+    "spa": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "odataType": "#microsoft.graph.spaApplication",
+      "redirectUris": []
+    },
+    "tags": [],
+    "tokenEncryptionKeyId": null,
+    "tokenIssuancePolicies": null,
+    "tokenLifetimePolicies": null,
+    "verifiedPublisher": {
+      "addedDateTime": null,
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "displayName": null,
+      "odataType": "#microsoft.graph.verifiedPublisher",
+      "verifiedPublisherId": null
+    },
+    "web": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "homePageUrl": "https://stidpoc.onmicrosoft.com/cpimextensions",
+      "implicitGrantSettings": {
+        "additionalData": {},
+        "backingStore": {
+          "initializationCompleted": true,
+          "returnOnlyChangedValues": false
+        },
+        "enableAccessTokenIssuance": false,
+        "enableIdTokenIssuance": true,
+        "odataType": "#microsoft.graph.implicitGrantSettings"
+      },
+      "logoutUrl": null,
+      "odataType": "#microsoft.graph.webApplication",
+      "redirectUris": ["https://stidpoc.onmicrosoft.com/cpimextensions"],
+      "redirectUriSettings": [
+        {
+          "additionalData": {},
+          "backingStore": {
+            "initializationCompleted": true,
+            "returnOnlyChangedValues": false
+          },
+          "index": null,
+          "odataType": "#microsoft.graph.redirectUriSettings",
+          "uri": "https://stidpoc.onmicrosoft.com/cpimextensions"
+        }
+      ]
+    },
+    "administrativeUnits": null,
+    "deletedItems": null,
+    "federationConfigurations": null,
+    "additionalData": { "deletedDateTime": null },
+    "backingStore": {
+      "initializationCompleted": true,
+      "returnOnlyChangedValues": false
+    },
+    "id": "de8a2ee3-a47b-4f1b-98c0-f95a470c30af",
+    "odataType": "#microsoft.graph.application"
+  },
+  {
+    "addIns": [],
+    "api": {
+      "acceptMappedClaims": null,
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "knownClientApplications": [],
+      "oauth2PermissionScopes": [],
+      "odataType": "#microsoft.graph.apiApplication",
+      "preAuthorizedApplications": [],
+      "requestedAccessTokenVersion": 2
+    },
+    "appId": "12526085-280b-4fa1-bd8d-b90ba7133d43",
+    "applicationTemplateId": null,
+    "appRoles": [],
+    "certification": null,
+    "createdDateTime": "2022-11-04T13:44:44+00:00",
+    "createdOnBehalfOf": null,
+    "defaultRedirectUri": null,
+    "description": null,
+    "disabledByMicrosoftStatus": null,
+    "displayName": "admin-blazor",
+    "extensionProperties": null,
+    "federatedIdentityCredentials": null,
+    "groupMembershipClaims": null,
+    "homeRealmDiscoveryPolicies": null,
+    "identifierUris": [],
+    "info": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "logoUrl": null,
+      "marketingUrl": null,
+      "odataType": "#microsoft.graph.informationalUrl",
+      "privacyStatementUrl": null,
+      "supportUrl": null,
+      "termsOfServiceUrl": null
+    },
+    "isDeviceOnlyAuthSupported": null,
+    "isFallbackPublicClient": null,
+    "keyCredentials": [],
+    "logo": null,
+    "notes": null,
+    "oauth2RequirePostResponse": null,
+    "optionalClaims": null,
+    "owners": null,
+    "parentalControlSettings": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "countriesBlockedForMinors": [],
+      "legalAgeGroupRule": "Allow",
+      "odataType": "#microsoft.graph.parentalControlSettings"
+    },
+    "passwordCredentials": [
+      {
+        "additionalData": {},
+        "backingStore": {
+          "initializationCompleted": true,
+          "returnOnlyChangedValues": false
+        },
+        "customKeyIdentifier": null,
+        "displayName": "Secret created by dotnet-msidentity tool",
+        "endDateTime": "2024-11-04T13:46:17.772448+00:00",
+        "hint": "5KU",
+        "keyId": "d3ddb799-a6b1-459d-8ae9-684390e0b04a",
+        "odataType": "#microsoft.graph.passwordCredential",
+        "secretText": null,
+        "startDateTime": "2022-11-04T13:46:17.772448+00:00"
+      }
+    ],
+    "publicClient": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "odataType": "#microsoft.graph.publicClientApplication",
+      "redirectUris": []
+    },
+    "publisherDomain": "stidpoc.onmicrosoft.com",
+    "requiredResourceAccess": [
+      {
+        "additionalData": {},
+        "backingStore": {
+          "initializationCompleted": true,
+          "returnOnlyChangedValues": false
+        },
+        "odataType": "#microsoft.graph.requiredResourceAccess",
+        "resourceAccess": [
+          {
+            "additionalData": {},
+            "backingStore": {
+              "initializationCompleted": true,
+              "returnOnlyChangedValues": false
+            },
+            "id": "7427e0e9-2fba-42fe-b0c0-848c9e6a8182",
+            "odataType": "#microsoft.graph.resourceAccess",
+            "type": "Scope"
+          },
+          {
+            "additionalData": {},
+            "backingStore": {
+              "initializationCompleted": true,
+              "returnOnlyChangedValues": false
+            },
+            "id": "37f7f235-527c-4136-accd-4a02d197296e",
+            "odataType": "#microsoft.graph.resourceAccess",
+            "type": "Scope"
+          }
+        ],
+        "resourceAppId": "00000003-0000-0000-c000-000000000000"
+      }
+    ],
+    "samlMetadataUrl": null,
+    "serviceManagementReference": null,
+    "signInAudience": "AzureADandPersonalMicrosoftAccount",
+    "spa": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "odataType": "#microsoft.graph.spaApplication",
+      "redirectUris": []
+    },
+    "tags": [],
+    "tokenEncryptionKeyId": null,
+    "tokenIssuancePolicies": null,
+    "tokenLifetimePolicies": null,
+    "verifiedPublisher": {
+      "addedDateTime": null,
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "displayName": null,
+      "odataType": "#microsoft.graph.verifiedPublisher",
+      "verifiedPublisherId": null
+    },
+    "web": {
+      "additionalData": {},
+      "backingStore": {
+        "initializationCompleted": true,
+        "returnOnlyChangedValues": false
+      },
+      "homePageUrl": null,
+      "implicitGrantSettings": {
+        "additionalData": {},
+        "backingStore": {
+          "initializationCompleted": true,
+          "returnOnlyChangedValues": false
+        },
+        "enableAccessTokenIssuance": true,
+        "enableIdTokenIssuance": true,
+        "odataType": "#microsoft.graph.implicitGrantSettings"
+      },
+      "logoutUrl": null,
+      "odataType": "#microsoft.graph.webApplication",
+      "redirectUris": [
+        "http://localhost:5160/signin-oidc",
+        "https://localhost:7160/signin-oidc",
+        "https://localhost:44352/signin-oidc",
+        "http://localhost:35493/signin-oidc"
+      ],
+      "redirectUriSettings": [
+        {
+          "additionalData": {},
+          "backingStore": {
+            "initializationCompleted": true,
+            "returnOnlyChangedValues": false
+          },
+          "index": null,
+          "odataType": "#microsoft.graph.redirectUriSettings",
+          "uri": "http://localhost:5160/signin-oidc"
+        },
+        {
+          "additionalData": {},
+          "backingStore": {
+            "initializationCompleted": true,
+            "returnOnlyChangedValues": false
+          },
+          "index": null,
+          "odataType": "#microsoft.graph.redirectUriSettings",
+          "uri": "https://localhost:7160/signin-oidc"
+        },
+        {
+          "additionalData": {},
+          "backingStore": {
+            "initializationCompleted": true,
+            "returnOnlyChangedValues": false
+          },
+          "index": null,
+          "odataType": "#microsoft.graph.redirectUriSettings",
+          "uri": "https://localhost:44352/signin-oidc"
+        },
+        {
+          "additionalData": {},
+          "backingStore": {
+            "initializationCompleted": true,
+            "returnOnlyChangedValues": false
+          },
+          "index": null,
+          "odataType": "#microsoft.graph.redirectUriSettings",
+          "uri": "http://localhost:35493/signin-oidc"
+        }
+      ]
+    },
+    "administrativeUnits": null,
+    "deletedItems": null,
+    "federationConfigurations": null,
+    "additionalData": { "deletedDateTime": null },
+    "backingStore": {
+      "initializationCompleted": true,
+      "returnOnlyChangedValues": false
+    },
+    "id": "e7765f32-2ed9-4801-a9d8-e0d9f3c60383",
+    "odataType": "#microsoft.graph.application"
+  }
+]

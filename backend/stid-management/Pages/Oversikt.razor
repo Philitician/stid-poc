@@ -1,0 +1,50 @@
+﻿@page "/oversikt"
+
+<PageTitle>Group Management</PageTitle>
+
+@using System.Security.Claims
+@using stid_management.Services 
+@using Group = Microsoft.Graph.Models.Group
+@inject IGroupService GroupService
+@inject AuthenticationStateProvider AuthenticationStateProvider
+
+
+<h1>Group Management !!</h1>
+
+
+@if (_groups == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Id</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var group in _groups)
+        {
+            <tr>
+                <td>@group.DisplayName</td>
+                <td>@group.Id</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Group>? _groups;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var userId = authState.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        if (userId == null) return;
+        _groups = await GroupService.GetGroupMemberships(userId);
+    }
+}
